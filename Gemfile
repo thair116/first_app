@@ -1,31 +1,19 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-<<<<<<< HEAD
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails
 gem 'rails', '4.0.0'
 
-=======
-gem 'rails', '4.0.0.rc1'
-
-# Use sqlite3 as the database for Active Record
->>>>>>> 82acd18bd8c80ac8b9d357eda41d77aa104cf163
 group :development do
 	gem 'sqlite3', '1.3.7'
 end
 
 # Use SCSS for stylesheets
-<<<<<<< HEAD
 gem 'sass-rails', '4.0.0'
 
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '1.3.0'
-=======
-gem 'sass-rails', '4.0.0.rc1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.1.1'
->>>>>>> 82acd18bd8c80ac8b9d357eda41d77aa104cf163
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '4.0.0'
@@ -47,12 +35,9 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-<<<<<<< HEAD
-=======
 group :production do
 	gem 'pg', '0.15.1'
 end
->>>>>>> 82acd18bd8c80ac8b9d357eda41d77aa104cf163
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
