@@ -39,6 +39,7 @@ FirstApp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
+<<<<<<< HEAD
   
   # Example resource route with concerns:
   #   concern :toggleable do
@@ -46,6 +47,8 @@ FirstApp::Application.routes.draw do
   #   end
   #   resources :posts, concerns: :toggleable
   #   resources :photos, concerns: :toggleable
+=======
+>>>>>>> 82acd18bd8c80ac8b9d357eda41d77aa104cf163
 
   # Example resource route within a namespace:
   #   namespace :admin do
